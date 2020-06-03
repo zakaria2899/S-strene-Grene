@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+body{
+font-family: 'Balsamiq Sans', cursive;
+  padding:0;
+  margin:0;
+  background:rgba(40, 49, 42, 0.87);
+  border-bottom:rgba(31, 49, 121, 0.7) 3px solid;
+
+}
+
+/* container */
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:40px;
+  padding:10px;
+}
+
+
+/* navbar **/
+
+header{
+  background:rgba(40, 49, 42, 0.87);
+  color:rgba(255, 0, 128, 0.78); 
+  padding-top:-20px;
+}
+
+header a{
+  color:white;
+  text-decoration:none;
+  text-transform: full-width;
+  font-size:30px;
+font-family: 'Libre Baskerville', serif;
+}
+
+header li{
+  float:left;
+  display:run-in;
+  padding: 20px;
+}
+
+
+
+header nav{
+  float:right;
+  margin-top:-120px;
+}
+
+
+
+
+.candy{
+    
+ width: 50%;   
+    
+   
+    
+}
+
+.posen{
+    
+ width: 20%;   
+    
+    
+}
+
+
+
+/* formular */
+ul#formular li{ 
+  list-style: none;
+  padding:20px;
+  border: #00ff45 solid 2px;
+  margin-bottom:5px;
+  background:rgba(142, 142, 142, 0.78);
+}
+
+#formular h3{
+    
+font-size: 30px;    
+    
+color: #ded6d6;
+    
+}
+
+#konkurrence{
+    
+font-size: 15px; 
+color: black;
+
+   
+    
+}
+
+.knap_1{
+font-size: 20px;   
+    
+    
+    
+    
+}
+
+
+
+footer{
+   width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-around;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .3);
+    background: rgba(40, 49, 42, 0.87);
+
+    
+
+}
+    
+    footer ul li{
+  font-family: 'Red Hat Display', sans-serif;
+    color: #c5c8d3;
+    list-style: none;
+    }
+    
+    #hr-lines{
+    width: 95%;    
+    }
+    
+    .logos img{
+    width: 40px;    
+    padding: 5px;
+    }
+    
+    .copyright{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #6D6E71;
+  font-family: 'Red Hat Display', sans-serif;
+    font-size: 11px;
+    }
+    
+    .copyright p{
+    margin: 0;
+    padding: 0;
+    margin-left: 4%;
+    }
+    
+
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header nav,
+  header nav li,
+  article#center,
+  bar#konurrence{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+}
+
+  header{
+    padding-bottom:5px;
+    
+    }
+
+  #baggrundsbillede h1{
+    margin-top:20px;
+  }
+    
+    
+
+
+footer{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-around;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .3);
+    background: rgba(40, 49, 42, 0.87);
+
+    }
+    
+    footer ul li{
+    font-family: var(--main-headingfont);
+    color: #c5c8d3;
+    list-style: none;
+    }
+    
+    #hr-lines{
+    width: 95%;    
+    }
+    
+    .logos img{
+    width: 40px;    
+    border-radius: 40px;
+    padding: 5px;
+    }
+    
+    .copyright{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #6D6E71;
+    font-family: var(--main-textfont);
+    font-size: 11px;
+    }
+    
+    .copyright p{
+    margin: 0;
+    padding: 0;
+    margin-left: 4%;
+    }
+    
+   
+ 
+    
+    
+    
+    
+    
+    
+  
